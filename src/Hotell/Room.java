@@ -9,8 +9,10 @@ public class Room {
     private String _ownerRoom;
 
     static {
-        _countRoom += 1;
+
+        _countRoom += 1; // rewrite
     }
+
 
     public Room(int _IDRoom, int _priceRoom, String _categoryRoom, String _ownerRoom) {
         this._IDRoom = _IDRoom;
