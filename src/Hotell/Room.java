@@ -1,4 +1,5 @@
 package Hotell;
+//new line make class hotel
 
 public class Room {
     private static int _countRoom;
