@@ -13,6 +13,10 @@ public class Main {
             System.out.println(room.toString());
         }
 
+        rooms[0].set_ownerRoom("Nova");
+        rooms[1].set_ownerRoom("Gans");
+        rooms[1].containsRoom("кровать", "диван");
+        System.out.printf("Владелец комнаты %d, %s", rooms[0].get_countRoom(), rooms[0].get_ownerRoom());
 
         System.out.println("It while works!");
     }
